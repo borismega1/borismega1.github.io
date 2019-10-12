@@ -1,0 +1,167 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	background: #5e5e5e;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 39px 60px 0 46px;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #F3E5E5;
+	padding-bottom: 16px;
+}
+
+.menu_item{
+	list-style: none;
+}
+
+.menu_item a{
+	color: #fbfbfb;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 49px;
+	transition: all .5s ease;
+}
+
+.menu_item a:hover{
+	color: #57C8CE;
+	text-shadow: 1px 2px 7px #57C8CE;
+}
+
+.social_item{
+	padding-right: 9px;
+}
+
+.intro{
+	padding-bottom: 71px;
+}
+
+.intro_title{
+	font-weight: 400;
+	color: #F3E5E5;
+	font-size: 20px;
+	text-align: center;
+	margin: 87px 0 50px 0;
+}
+
+.intro_inner{
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	width: 860px;
+}
+
+.card-title{
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	color: #F3E5E5;
+	font-size: 20px;
+}
+
+.divider{
+	height: 532px;
+	border-right: 1px solid #F3E5E5;
+}
+
+.intro_descr{
+	text-align: center;
+}
+
+.card_img{
+	border-radius: 50px;
+	transition: ease .5s all;
+}
+
+.card_img:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-box-shadow: 2px 8px 19px 5px rgba(238,247,255,0.41); 
+	box-shadow: 2px 8px 19px 5px rgba(238,247,255,0.41);
+}
+
+.intro_descr{
+	margin-top: 41px;
+	font-size: 25px;
+	color: #F3E5E5;
+	font-weight: 400;
+	margin-bottom: 45px;
+}
+
+.btn{
+	padding: 17px 4px;
+	display: block;
+	margin: 0 auto;
+	width: 180px;
+    height: 48px;
+	background: #A6A6A6;
+	border: none;
+	border-radius: 50px;
+	outline: none;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000000;
+	transition: all .5s ease;
+	text-decoration: none;
+}
+
+
+.btn:hover{
+	background: #57C8CE;
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.footer{
+	background-color: #000;
+	padding: 25px 0 25px 0;
+}
+
+.footer_socials{
+	display: block;
+	text-align: center;
+}
+
+.footer_text{
+	color: #ccc;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+
+
+                       /*ABOUT*/
+.dev{
+	padding-top: 300px;
+	text-align: center;
+	color: #fff;
+	font-size: 56px;
+}
+
+
+
